@@ -34,13 +34,13 @@ public class SaqueServiceTest {
     }
 
     @Test
-    void valor_2000_deveSerAceito() {
-        assertTrue(service.podeSacar(2000));
+    void valor_3000_deveSerAceito() {
+        assertTrue(service.podeSacar(3000));
     }
 
     @Test
-    void valor_2010_deveSerRejeitado() {
-        assertFalse(service.podeSacar(2010));
+    void valor_3010_deveSerRejeitado() {
+        assertFalse(service.podeSacar(3010));
     }
 
 
